@@ -1,0 +1,65 @@
+<% set_meta_tags :description => "All text about keywords, other keywords" %>
+
+<% content_for :banner do %>
+<div class="row">
+	<div class="span12">
+		<div id="myCarousel" class="carousel slide">
+			<div class="carousel-inner">
+				<div class="active item">
+					<%= image_tag "pro_tu.jpg" %>
+					<div class="carousel-caption">
+					 <h4>多样的设备</h4>
+					 <p>合试的设备和最优的系统设计，给你带来低投入高回报的收益</p>
+					 </div>
+				</div>
+				<div class="item">
+					<%= image_tag "support_tu.jpg" %>
+					<div class="carousel-caption">
+					   <h4>敏捷服务,解决您的问题</h4>
+						 <p>本公司有强大的技术支持团队,可设计1000Ｗ以上的系统</p>
+					 </div>
+				</div>
+				<div class="item">
+					<%= image_tag "case_tu.jpg" %>
+					<div class="carousel-caption">
+					  <h4>您的问题我们给您解决</h4>
+						<p>不同的行业，不同的需求 不同的方案</p>
+					</div>
+				</div>
+			</div>
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			<a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+		</div>
+	</div>
+</div>
+<% end %>
+
+<div class="box clearfix">
+	<h3 class='head'>公司简介/About Us</h3>
+	<%= image_tag "1.jpg", :class => "pull-right", :style => "margin-left: 20px"  %>
+	<p>江苏靠岸系统集成有限公司，始建于2008年，注册奖金500Ｗ元，公司专业从事建筑智能化系统集成设计和施工，同时经营新风系统，太阳能路灯等专业业务。公司成立以来，完成了十余个智能化工程</p>
+	<p>江苏靠岸系统集成有限公司一如既往地遵从"用户就是上帝"的服务原则，"以稳定、可靠、适用，创造技术与艺术的统一"的质量方针，以良好的服务形象，规范的操作程序，优秀的工程质量服务用户，回报社会。</p>
+</div>
+
+<div class="yw box">
+	<h3 class='head'>公司业务/What We Do</h3>
+	<table class="table">
+		<tr>
+			<td><%= image_tag "aa.jpg", class: "thumbnail" %></td>
+			<td>
+				<h5>智能化工程</h5>
+				<p>承接小区智能化系统设计与工程总包</p>
+			</td>
+			<td><%= image_tag "b.jpg", class: "thumbnail" %></td>
+			<td><h5>新风系统</h5>
+			<p>承接室内通风排气设备安装和设计</p></td>
+			<td><%= image_tag "cc.jpg", class: "thumbnail" %></td>
+			<td><h5>太阳能路灯</h5>
+			<p>承接太阳能路灯、太阳能发电、LED路灯安装</p></td>
+		</tr>
+	</table>
+</div>
+
+<div class="show">
+	<div class="span12"></div>
+</div>

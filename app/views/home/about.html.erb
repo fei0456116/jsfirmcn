@@ -1,0 +1,59 @@
+<% content_for :banner do %>
+<div class="banner box">
+	<%= image_tag "banner2.jpg", width: "940px", height: "195px" %>
+</div>
+<% end %>
+
+<div class="about box">
+	<h3 class='head'>公司简介/About Us</h3>
+	<p>江苏靠岸系统集成有限公司，始建于2008年，注册奖金500Ｗ元，公司专业从事建筑智能化系统集成设计和施工，同时经营新风系统，太阳能路灯等专业业务。公司成立以来，完成了十余个智能化工程，
+
+	江苏靠岸系统集成有限公司一如既往地遵从"用户就是上帝"的服务原则，"以稳定、可靠、适用，创造技术与艺术的统一"的质量方针，以良好的服务形象，规范的操作程序，优秀的工程质量服务用户，回报社会。
+	</p>
+</div>
+
+<div class="case">
+	<%= image_tag "index_alzs.gif" %>
+	<style type="text/css">
+		.thumbnail{
+			position: relative;
+		}
+		.carousel-caption{
+			position: absolute;
+			left: 4px;
+			right: 4px;
+			bottom: 4px;
+		}
+	</style>
+
+
+
+	<div class="yj">
+		<ul class="thumbnails">
+		        <li class="span3">
+		          <a class="thumbnail" href="#">
+		            <%= image_tag "a1.png", height: "160px" %>
+								<div class="carousel-caption">
+								 	<h4>香密湖新风工程</h4>
+								 </div>
+		          </a>
+		        </li>
+		        <li class="span3">
+		          <a class="thumbnail" href="#">
+		            <img alt="" src="/assets/a2.png" height='160px'>
+								<div class="carousel-caption">
+								 	<h4>攀华集团弱电工程</h4>
+								 </div>
+		          </a>
+		        </li>
+		        <li class="span3">
+		          <a class="thumbnail" href="#">
+		            <img alt="" src="/assets/a3.jpg" height='160px'>
+								<div class="carousel-caption">
+								 	<h4>聚丰新村弱电工程</h4>
+								 </div>
+		          </a>
+		        </li>
+		      </ul>
+	</div>
+</div>

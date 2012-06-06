@@ -1,0 +1,1 @@
+(function(){jQuery(function(){return $(".carousel").carousel({interval4:2e3})})}).call(this);

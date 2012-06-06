@@ -1,0 +1,58 @@
+<style type="text/css">
+	.thumbnail{
+		position: relative;
+	}
+	.carousel-caption{
+		position: absolute;
+		left: 4px;
+		right: 4px;
+		bottom: 4px;
+	}
+</style>
+
+<% content_for :banner do %>
+<div class="banner box">
+	<%= image_tag "case_tu.jpg", width: "940px", height: "195px" %>
+</div>
+<% end %>
+
+
+
+<div class="yj">
+	<h3 class='head'>公司业绩</h3>
+	<p>公司成产以成 完成不少弱电项目，得到用户的好评</p>
+	<ul class="thumbnails">
+	        <li class="span3">
+	          <a class="thumbnail" href="#">
+	            <%= image_tag "a1.png", height: "180px" %>
+							<div class="carousel-caption">
+							 	<h4>香密湖新风工程</h4>
+							 </div>
+	          </a>
+	        </li>
+	        <li class="span3">
+	          <a class="thumbnail" href="#">
+	            <img alt="" src="/assets/a2.png" height='180px'>
+							<div class="carousel-caption">
+							 	<h4>攀华集团弱电工程</h4>
+							 </div>
+	          </a>
+	        </li>
+	        <li class="span3">
+	          <a class="thumbnail" href="#">
+	            <img alt="" src="/assets/a3.jpg" height='180px'>
+							<div class="carousel-caption">
+							 	<h4>聚丰新村弱电工程</h4>
+							 </div>
+	          </a>
+	        </li>
+	        <li class="span3">
+	          <a class="thumbnail" href="#">
+	            <img src="/assets/a4.jpg" alt="" height='180px'>
+							<div class="carousel-caption">
+							 	<h4>汇景豪苑</h4>
+							 </div>
+	          </a>
+	        </li>
+	      </ul>
+</div>
